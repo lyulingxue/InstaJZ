@@ -4,7 +4,7 @@
 <div class="navbar navbar-default navbar-fixed-top" id="main-nav">
     <div class="container desktop">
         <div class="navbar-header">
-            <a href="{% url 'posts' %}" class="navbar-brand">Insta</a>
+            <a href="{% url 'posts' %}" class="navbar-brand">Mini Instagram</a>
         </div>
 
         <div id="navbar-main">
@@ -21,10 +21,10 @@
                     <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out {% active 'logout' %}" aria-hidden="true"></i></a></li>
                 {% else %}
                     <li>
-                        <a href="{% url 'login' %}">login</a>
+                        <a href="{% url 'login' %}">Log in</a>
                     </li>
                     <li>
-                        <a href="{% url 'signup' %}">signup</a>
+                        <a href="{% url 'signup' %}">Sign up</a>
                     </li>
                 {% endif %}
             </ul>
